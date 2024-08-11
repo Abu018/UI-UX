@@ -1,0 +1,16 @@
+.letter {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.letter:hover {
+    transform: translateY(-20px);
+    /* Adjust the value as needed */
+}
+
+
+
+.image:hover {
+    width: 100px;
+    height: 100px;
+}
