@@ -26,7 +26,7 @@ export const ExtendTechStack = () => {
                 className="absolute top-1/2 left-2 sm:left-4 transform -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full shadow-md"
               >
                 <img
-                  src="/arrow2.svg"
+                  src="./assests/arrow2.svg"
                   alt="Previous"
                   className="w-6 sm:w-8 h-6 sm:h-8"
                 />
@@ -42,7 +42,7 @@ export const ExtendTechStack = () => {
                 className="absolute top-1/2 right-2 sm:right-4 transform -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full shadow-md"
               >
                 <img
-                  src="/arrow1.svg"
+                  src="./assests/arrow1.svg"
                   alt="Next"
                   className="w-6 sm:w-8 h-6 sm:h-8"
                 />

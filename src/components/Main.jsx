@@ -141,9 +141,9 @@ function Main() {
           className="text-2xl lg:text-2xl cursor-pointer text-center"
           onClick={handleParagraphClick}
         >
-          I am always excited to work on some awesome projects{" "}
+          I am always excited to work on some awesome projects
           <span className="block mt-2">
-            Message me and let's discuss over Chai.
+            Send me a message and let's talk over Chai.
           </span>
         </p>
         {showInput && !showEmailPrompt && (

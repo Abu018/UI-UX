@@ -5,13 +5,9 @@ export default {
     extend: {
       fontFamily: {
         greatVibes: ['"Great Vibes"', "cursive"],
-        hello: ["gstatic"],
         gupter: ["Gupter", "serif"],
         lato: ["Lato", "sans-serif"],
         styleScript: ['"Style Script"', "cursive"],
-      },
-      cursor: {
-        custom: "url(/joke.png),auto", // Custom cursor style
       },
       keyframes: {
         slideFromTop: {

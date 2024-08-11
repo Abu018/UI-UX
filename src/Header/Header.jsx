@@ -25,7 +25,7 @@ export const Header = () => {
               B
             </span>
             <img
-              src="/icons8100.png"
+              src="./../assests/icons8100.png"
               className="w-10 xs:w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 h-auto transition-transform transform hover:scale-125 animate-slide-from-bottom"
               alt="Logo"
             />
