@@ -93,25 +93,7 @@ const TechStack = () => {
     ],
   });
 
-  return (
-    <div className="w-full max-w-[1200px] mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6 text-center text-black">Skills</h1>
-      <div className="flex flex-wrap justify-center gap-4">
-        <div className="w-full xs:w-[300px] sm:w-[400px] md:w-[450px] h-[300px] xs:h-[350px] sm:h-[400px] md:h-[450px]">
-          <Radar
-            data={createChartData(languagesAndWeb)}
-            options={chartOptions}
-          />
-        </div>
-        <div className="w-full xs:w-[300px] sm:w-[400px] md:w-[450px] h-[300px] xs:h-[350px] sm:h-[400px] md:h-[450px]">
-          <Radar
-            data={createChartData(frameworksAndTools)}
-            options={chartOptions}
-          />
-        </div>
-      </div>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default TechStack;

@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "chart.js": "^4.4.3",
+    "framer-motion": "^11.3.28",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
@@ -44,5 +45,9 @@
     "@babel/plugin-proposal-decorators": "^7.24.7",
     "@babel/plugin-syntax-decorators": "^7.24.7",
     "tailwindcss": "^3.4.9"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
 }

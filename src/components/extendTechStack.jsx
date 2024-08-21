@@ -1,92 +1,79 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const ExtendTechStack = () => {
   return (
-    <div className="w-full h-[300px] flex items-center justify-center">
-      <div className="relative w-full max-w-4xl h-full p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 rounded-lg bg-white overflow-hidden">
-        <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-black">
-          Interests
-        </h2>
-        <Carousel
-          showThumbs={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          interval={5000}
-          showStatus={false}
-          showIndicators={false} // Set to false to hide the circle indicators
-          className="relative text-center"
-          renderArrowPrev={(onClickHandler, hasPrev, label) =>
-            hasPrev && (
-              <button
-                type="button"
-                onClick={onClickHandler}
-                title={label}
-                className="absolute top-1/2 left-2 sm:left-4 transform -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full shadow-md"
-              >
-                <img
-                  src="./assests/arrow2.svg"
-                  alt="Previous"
-                  className="w-6 sm:w-8 h-6 sm:h-8"
-                />
-              </button>
-            )
-          }
-          renderArrowNext={(onClickHandler, hasNext, label) =>
-            hasNext && (
-              <button
-                type="button"
-                onClick={onClickHandler}
-                title={label}
-                className="absolute top-1/2 right-2 sm:right-4 transform -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full shadow-md"
-              >
-                <img
-                  src="./assests/arrow1.svg"
-                  alt="Next"
-                  className="w-6 sm:w-8 h-6 sm:h-8"
-                />
-              </button>
-            )
-          }
-        >
-          <div className="flex flex-col items-center">
-            <p className="mt-2 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl italic text-black">
-              "Exploring the potential of AI to transform industries and improve
-              lives."
-            </p>
-            <p className="mt-1 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl text-black">
-              Developing expertise in <strong>Artificial Intelligence</strong>
-            </p>
-          </div>
-          <div className="flex flex-col items-center">
-            <p className="mt-2 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl text-black">
-              "Harnessing cloud technology to build scalable and efficient
-              solutions."
-            </p>
-            <p className="mt-1 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl text-black">
-              Enhancing skills in <strong>Cloud Computing</strong>
-            </p>
-          </div>
-          <div className="flex flex-col items-center">
-            <p className="mt-2 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl italic text-black">
-              "Utilizing ML algorithms to create data-driven insights and
-              predictions."
-            </p>
-            <p className="mt-1 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl text-black">
-              Focusing on <strong>Machine Learning</strong>
-            </p>
-          </div>
-          <div className="flex flex-col items-center">
-            <p className="mt-2 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl italic text-black">
-              "Gaining proficiency in low-level languages to understand hardware
-              interactions."
-            </p>
-            <p className="mt-1 text-base xs:text-lg sm:text-xl md:text-1xl lg:text-2xl text-black">
-              Deepening knowledge in <strong>Low-Level Languages</strong>
-            </p>
-          </div>
-        </Carousel>
+    <div className="flex flex-col lg:flex-row p-6 lg:p-12 gap-12">
+      <div className="flex-1">
+        <h1 className="text-3xl lg:text-6xl  leading-tight">
+          Built on principle and driven by passion, Den.Cool stands is the
+          brainchild of Michele Angeloro, a free-spirited Creative and Art
+          Director based in Japan.
+        </h1>
+        <p className="mt-4 text-xl lg:text-6xl">
+          With a solid foundation in graphic design and over 15 years of
+          experience across leading studios and agencies in Italy, the United
+          Kingdom, and Japan, Den.Cool empowers brands by exploring the
+          interplay of branding, interface, and motion design.
+        </p>
+      </div>
+      <div className="flex-1 flex flex-col gap-8">
+        <div>
+          <h2 className="text-base lg:text-base font-bold mb-3">
+            INPUT / OUTPUT
+          </h2>
+          <p className="mb-3 text-base lg:text-base">
+            ALWAYS FASCINATED BY FRESH PERSPECTIVES, I LOVE HEARING FROM NEW
+            PEOPLE ABOUT THEIR IDEAS, PROJECTS, OR POTENTIAL COLLABORATIONS.
+          </p>
+          <p className="mb-3 text-base lg:text-base">
+            UNSURE OF THE PATH TO STEER YOUR BRAND? LET'S TEAM UP TO CRAFT
+            SOMETHING THAT TRULY CAPTURES YOUR BRAND ESSENCE AND SHINES
+            BEAUTIFULLY.
+          </p>
+          <ul className="text-base lg:text-base grid grid-cols-2 gap-y-1">
+            <li>BRANDING</li>
+            <li>IDENTITY</li>
+            <li>DIGITAL</li>
+            <li>MOTION</li>
+            <li>PRINT</li>
+            <li>CGI</li>
+            <li>PACKAGING</li>
+            <li>EXPERIENTIAL</li>
+            <li>SIGNAGE</li>
+            <li>INTERACTIVE</li>
+            <li>WEB</li>
+            <li>APP</li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-base lg:text-base font-bold mb-3">WORKED WITH</h2>
+          <ul className="text-base lg:text-base grid grid-cols-2 gap-y-1">
+            <li>ARX RESEARCH</li>
+            <li>CANADA GOOSE</li>
+            <li>DOCOMO</li>
+            <li>MERCARI</li>
+            <li>MIZUNO</li>
+            <li>MITSUKOSHI ISETAN</li>
+            <li>NIKE</li>
+            <li>RED BULL</li>
+            <li>SHISEIDO</li>
+            <li>SONY</li>
+            <li>SQUARE</li>
+            <li>SUBARU</li>
+            <li>TOYOTA</li>
+            <li>YAMAHA</li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-base lg:text-base font-bold mb-3">FEATURED ON</h2>
+          <ul className="text-base lg:text-base grid grid-cols-1 gap-y-1">
+            <li>AWWWARDS</li>
+            <li>FWA</li>
+            <li>CSSDA</li>
+            <li>365 BEST WEBSITES AROUND THE WORLD 2015 & 2017</li>
+            <li>GREATEST CLICKS 2010 & 2016</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
